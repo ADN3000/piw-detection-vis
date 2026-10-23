@@ -1,0 +1,34 @@
+﻿# Ambientes Python e caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.cache/
+**/cache/
+**/*.egg-info/
+
+# Amostras locais
+**/samples/
+
+# Repositórios e dependências externas
+**/external/
+
+# Pesos e artefatos de modelos
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.onnx
+**/*.engine
+**/*.safetensors
+
+# Segredos
+**/.env
+**/.env.*
+!**/.env.example
+
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
+
+# Resultados gerados localmente
+**/outputs/
